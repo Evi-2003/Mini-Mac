@@ -17,3 +17,4 @@ macOS only supports very old Nvidea GPU'S, my main pc has a 2060 Super which is 
 - [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
 - [ ] Find the right kexts or changes in the configuration so macOS can read the temps. 
 - [ ] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
+- [ ] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
