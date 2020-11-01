@@ -1,0 +1,325 @@
+0:100  0:100  MemLog inited, TSC freq: 3504491320
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  Clover : Image base = 0xB865D000
+0:100  0:000  
+0:100  0:000  Now is 18.10.2020,  10:08:22 (GMT)
+0:100  0:000  Starting Clover revision: 5122 (HEAD, commit 1fe7cc1cf) on American Megatrends EFI
+0:100  0:000  Build with: [Args: --x64-mcp --no-usb -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D DISABLE_USB_SUPPORT -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/vagrant/.clobber/src/Clover/Conf -D USE_BIOS_BLOCKIO -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 3 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000) @C33BD598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ==============================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM2
+0:100  0:000  SmbiosTable.Type17->Vendor = Corsair
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = CMK16GX4M2B3200C16  
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM2
+0:100  0:000  SmbiosTable.Type17->Vendor = Corsair
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = CMK16GX4M2B3200C16  
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'System Product Name' with board 'PRIME B250-PLUS'
+0:100  0:000  === [ GetCPUProperties ] ========================
+0:100  0:000  CPU Vendor = 756E6547 Model=906E9
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Pentium(R) CPU G4560 @ 3.50GHz
+0:100  0:000   The CPU not supported turbo
+0:100  0:000  MSR 0x35               20004
+0:100  0:000   TSC/CCC Information Leaf:
+0:100  0:000    numerator     : 292
+0:100  0:000    denominator   : 2
+0:100  0:000   Calibrated ARTFrequency: 24003365
+0:100  0:000   Rounded ARTFrequency: 24000000
+0:100  0:000  MSR 0xE2 before patch 1E000000
+0:100  0:000  MSR 0xCE              00080838_F1012300
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 35.0/8
+0:100  0:000  Turbo: 35/35/35/35
+0:100  0:000  Features: 0x47FAEBBFBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3500 MHz
+0:100  0:000  TSC: 3500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ==============================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010300)
+0:100  0:000  PCI (00|00:00.00) : 8086 590F class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:100  0:000  PCI (00|01:00.00) : 1002 67DF class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=AMD Radeon RX 480/570/580 (ATI/AMD)
+0:100  0:000  PCI (00|01:00.01) : 1002 AAF0 class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:14.00) : 8086 A2AF class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 A2BA class=078000
+0:100  0:000  PCI (00|00:17.00) : 8086 A282 class=010601
+0:100  0:000  PCI (00|00:1C.00) : 8086 A294 class=060400
+0:100  0:000  PCI (00|00:1C.05) : 8086 A295 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1C.07) : 8086 A297 class=060400
+0:100  0:000  PCI (00|04:00.00) : 1B21 1080 class=060400
+0:100  0:000  PCI (00|00:1D.00) : 8086 A298 class=060400
+0:101  0:000  PCI (00|00:1F.00) : 8086 A2C8 class=060100
+0:101  0:000  PCI (00|00:1F.02) : 8086 A2A1 class=058000
+0:101  0:000  PCI (00|00:1F.03) : 8086 A2F0 class=040300
+0:101  0:000  PCI (00|00:1F.04) : 8086 A2A3 class=0C0500
+0:101  0:000  === [ GetDefaultSettings ] ======================
+0:101  0:000  Clover load options size = 0 bytes
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name--00-00-00-00-00-00. Dir not exists
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\PRIME B250-PLUS\UEFI. Dir not exists
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name. Dir not exists
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\System Product Name-3500. Dir not exists
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\PRIME B250-PLUS. Dir not exists
+0:101  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\PRIME B250-PLUS-3500. Dir not exists
+0:101  0:000  set OEMPath by default: EFI\CLOVER
+0:104  0:002  Using config.plist at SelfRootDir at path: EFI\CLOVER\config.plist
+0:104  0:000  EFI\CLOVER\config.plist loaded: Success
+0:104  0:000  === [ GetListOfThemes ] =========================
+0:106  0:002  === [ Found config plists ] =====================
+0:106  0:000  - config.plist
+0:107  0:000  === [ GetEarlyUserSettings ] ====================
+0:107  0:000  timeout set to 5
+0:107  0:000  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+0:107  0:000   get BlueValue=1.200000
+0:107  0:000  FakeCPUID: 306A0
+0:107  0:000  KextsToPatch: 7 requested
+0:107  0:000   - [00]: com.apple.driver.usb.AppleUSBXHCI (USB port limit patch by PMHeart) :: MatchOS: 10.13.x :: BinPatch :: data len: 10
+0:107  0:000   - [01]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:107  0:000   - [02]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:107  0:000   - [03]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:107  0:000   - [04]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)) :: MatchOS: 10.14.x :: BinPatch :: data len: 4
+0:107  0:000   - [05]: com.apple.iokit.IOUSBHostFamily (USB Port limit patch #1(credits PMheart)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:107  0:000   - [06]: com.apple.driver.usb.AppleUSBXHCI (USB Port limit patch #2(credits PMheart)) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:107  0:000  Default theme: Olarila
+0:107  0:000  Hiding entries with string Preboot
+0:107  0:000  === [ LoadDrivers ] =============================
+0:112  0:005  Loading AudioDxe.efi  status=Success
+0:116  0:003   - driver needs connecting
+0:116  0:000  Loading DataHubDxe.efi  status=Success
+0:118  0:002  Loading Fat.efi  status=Success
+0:121  0:002   - driver needs connecting
+0:121  0:000  Loading FSInject.efi  status=Success
+0:122  0:000  Loading HFSPlus.efi  status=Success
+0:123  0:000   - driver needs connecting
+0:123  0:000  Loading OsxAptioFix3Drv.efi  status=Success
+0:126  0:003  Loading SMCHelper.efi  status=Success
+0:126  0:000  Loading VBoxHfs.efi  status=Success
+0:127  0:000   - driver needs connecting
+0:127  0:000  4 drivers needs connecting ...
+0:127  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:127  0:000  HFS+ driver loaded
+0:127  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+5:479  5:351  === [ InitScreen ] ==============================
+5:479  0:000  Console modes reported: 4, available modes:
+5:479  0:000   - [01]: 80x25 (current mode)
+5:479  0:000   - [02]: 80x50
+5:479  0:000   - [03]: 100x31
+5:479  0:000   - [04]: 480x113
+5:479  0:000  SetMaxResolution: found best mode 0: 3840x2160
+5:479  0:000   - already set
+5:479  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)
+5:479  0:000  new SelfHandle=C33BD598
+5:480  0:001  Using embedded font
+5:481  0:000  === [ GetMacAddress ] ===========================
+5:481  0:000  === [ ScanSPD ] =================================
+5:481  0:000  Scanning SMBus [8086:A2A3], mmio: 0xF7F2A004, ioport: 0xF000, hostc: 0x11
+5:500  0:018  Found module with XMP version 2.0
+5:500  0:000  Slot: 1 Type 26 8192MB 3200MHz Vendor=Corsair PartNo=CMK16GX4M2B3200C16 SerialNo=00000000
+5:519  0:018  Found module with XMP version 2.0
+5:519  0:000  Slot: 3 Type 26 8192MB 3200MHz Vendor=Corsair PartNo=CMK16GX4M2B3200C16 SerialNo=00000000
+5:519  0:000  === [ GetAcpiTablesList ] =======================
+5:519  0:000  Get Acpi Tables List from RSDT:
+5:519  0:000   - [00]: FACP  A M I  len=132
+5:519  0:000   - [01]: APIC  A M I  len=132
+5:519  0:000   - [02]: FPDT  A M I  len=68
+5:519  0:000   - [03]: FIDT  A M I len=156
+5:519  0:000   - [04]: WSMT  A M I  len=40
+5:519  0:000   - [05]: MCFG  A M I  len=60
+5:519  0:000   - [06]: SSDT  SataTabl len=931
+5:519  0:000   - [07]: SSDT  SaSsdt  len=12387
+5:519  0:000   - [08]: SSDT  PegSsdt len=9637
+5:519  0:000   - [09]: HPET  KBL len=56
+5:519  0:000   - [10]: SSDT  OEM_RTD3 len=36
+5:519  0:000   - [11]: SSDT  Ther_Rvp len=3557
+5:520  0:000   - [12]: SSDT  xh_rvp08 len=2845
+5:520  0:000   - [13]: UEFI  A M I  len=66
+5:520  0:000   - [14]: SSDT  CpuSsdt len=3806
+5:520  0:000   - [15]: LPIT  KBL len=148
+5:520  0:000   - [16]: SSDT  HdaDsp len=321
+5:520  0:000   - [17]: SSDT  sensrhub len=671
+5:520  0:000   - [18]: SSDT  PtidDevc len=12290
+5:520  0:000   - [19]: SSDT  TbtTypeC len=1293
+5:520  0:000   - [20]: DBGP   len=52
+5:520  0:000   - [21]: DBG2   len=84
+5:520  0:000   - [22]: VFCT  A M I  len=59524
+5:520  0:000   - [23]: BGRT  A M I  len=56
+5:520  0:000  Calibrated TSC Frequency = 3504491320 = 3504MHz
+5:520  0:000  === [ GetUserSettings ] =========================
+5:520  0:000  USB FixOwnership: yes
+5:520  0:000   - final DSDT Fix mask=50000000
+5:520  0:000  smartUPS: present
+5:520  0:000  Using ProductName from config: iMac17,1
+5:520  0:000  Using latest BiosVersion from config
+5:520  0:000  BiosVersion: IM171.88Z.F000.B00.2006161817
+5:520  0:000  BiosReleaseDate: 06/16/2020
+5:520  0:000  Using latest EfiVersion from config: 428.0.0.0.0
+5:520  0:000  Using FirmwareFeatures from config: 0xFC0FE176
+5:520  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF7F
+5:520  0:000  Board-ID set from config as Mac-B809C3757DA9BB8D
+5:520  0:000  BoardType: 0xA
+5:520  0:000  ChassisType: 0x9
+5:520  0:000  Converted CustomUUID 7EA860FB-26EC-45AE-83AF-1D42A471297F
+5:520  0:000  The UUID is valid
+5:520  0:000  Cannot find smbios.plist at path: 'EFI\CLOVER\smbios.plist' or 'EFI\CLOVER\smbios.plist'
+5:521  0:000  === [ Found DSDT tables ] =======================
+5:545  0:024  === [ ScanVolumes ] =============================
+5:545  0:000  Found 8 volumes with blockIO
+5:545  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+5:546  0:001          Result of bootcode detection: bootable unknown (legacy)
+5:546  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)
+5:548  0:001          Result of bootcode detection: bootable unknown (legacy)
+5:548  0:000          This is SelfVolume !!
+5:548  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,MBR,0x6DDFC371,0x64800,0x72F7800)
+5:549  0:001  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+5:549  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)
+5:550  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:550  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73CA3607-69CD-4460-8D49-4DA5405D7B33,0x28,0x64000)
+5:551  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:553  0:002  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)
+5:553  0:000          Result of bootcode detection: bootable unknown (legacy)
+5:553  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\HD(1,MBR,0x2588E8B1,0x800,0x3A384800)
+5:554  0:000  found 2 handles with audio
+5:555  0:000  No AudioIoDevice stored
+5:555  0:000  no stored audio parameters
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 0
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 1
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 2
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 3
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 4
+5:555  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 5
+5:555  0:000  Found Audio Device Realtek ALC888B (SPDIF) at index 6
+5:555  0:000  Found Audio Device Realtek ALC888B (LineOut) at index 7
+5:555  0:000  Found Audio Device Realtek ALC888B (Headphones) at index 8
+5:555  0:000  === [ InitXTheme ] ==============================
+5:555  0:000  use Daylight theme
+5:555  0:000   using embedded theme
+5:570  0:014  sound play end with status=Device Error
+5:572  0:001  Using embedded font
+5:572  0:000  theme inited
+5:572  0:000  Chosen embedded theme
+5:573  0:000  found boot-args in NVRAM:alcid=1 -v -no_compat_check, size=28
+5:573  0:000  ...found arg:alcid=1
+5:573  0:000  ...found arg:-v
+5:573  0:000  ...found arg:-no_compat_check
+5:573  0:000  after NVRAM boot-args=dart=0 -no_compat_check alcid=1 -v
+5:573  0:000  === [ Dump SMC keys from NVRAM ] ================
+5:573  0:000  found AppleSMC protocol
+5:670  0:096  Registered 16 SMC keys
+5:675  0:004  === [ ScanLoader ] ==============================
+5:675  0:000  - [01]: 'BOOT'
+5:675  0:000          AddLoaderEntry for Volume Name=BOOT
+5:675  0:000       skipped because path `PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)\EFI\BOOT\BOOTX64.efi` is self path!
+5:675  0:000  - [02]: 'macOS Base System'
+5:683  0:008          AddLoaderEntry for Volume Name=macOS Base System
+5:689  0:005  IconName=cata,mac comma=4 size=8
+5:689  0:000    first=os_cata
+5:689  0:000    Second=os_mac
+5:689  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,MBR,0x6DDFC371,0x64800,0x72F7800)\System\Library\CoreServices\boot.efi'
+5:691  0:001  - [05]: 'EFI'
+5:707  0:016  - [07]: 'macos'
+5:707  0:000  Scanning legacy ...
+5:707  0:000  === [ AddCustomTool ] ===========================
+5:709  0:001  === [ GetEfiBootDeviceFromNvram ] ===============
+5:710  0:001   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,213B5EBA29D71B42A2C5D560285D916D)
+5:710  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,213B5EBA29D71B42A2C5D560285D916D)'
+5:710  0:000    - LoaderPath: ''
+5:710  0:000    - Guid = EC797C47-AA68-4FD3-A09A-CB903CD5B8A4
+5:710  0:000  === [ FindStartupDiskVolume ] ===================
+5:710  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,213B5EBA29D71B42A2C5D560285D916D)
+5:710  0:000     - searching for that partition
+5:710  0:000      - [!] not found
+5:710  0:000     - searching again, but comparing Media dev path nodes
+5:710  0:000      - [!] not found
+5:710  0:000  Default boot entry not found
+5:710  0:000  BannerPlace at Clear Screen [1856,764]
+5:733  0:022  AnimeRun=0
+5:753  0:020  GUI ready
+29:157  23:403  AnimeRun=0
+29:990  0:833  ReinitSelfLib after theme change
+29:990  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)
+29:990  0:000  new SelfHandle=C33BD598
+29:991  0:000  === [ ScanVolumes ] =============================
+29:991  0:000  Found 8 volumes with blockIO
+29:991  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+29:992  0:001          Result of bootcode detection: bootable unknown (legacy)
+29:992  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)
+29:993  0:001          Result of bootcode detection: bootable unknown (legacy)
+29:993  0:000          This is SelfVolume !!
+29:993  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,MBR,0x6DDFC371,0x64800,0x72F7800)
+29:994  0:001  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+29:995  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)
+29:995  0:000          Result of bootcode detection: bootable unknown (legacy)
+29:995  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,73CA3607-69CD-4460-8D49-4DA5405D7B33,0x28,0x64000)
+29:996  0:000          Result of bootcode detection: bootable unknown (legacy)
+29:998  0:002  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)
+29:999  0:000          Result of bootcode detection: bootable unknown (legacy)
+29:999  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\HD(1,MBR,0x2588E8B1,0x800,0x3A384800)
+29:999  0:000  found 2 handles with audio
+30:000  0:000  No AudioIoDevice stored
+30:000  0:000  no stored audio parameters
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 0
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 1
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 2
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 3
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 4
+30:000  0:000  Found Audio Device AMD (Unknown) (HDMI) at index 5
+30:000  0:000  Found Audio Device Realtek ALC888B (SPDIF) at index 6
+30:000  0:000  Found Audio Device Realtek ALC888B (LineOut) at index 7
+30:000  0:000  Found Audio Device Realtek ALC888B (Headphones) at index 8
+30:000  0:000  theme inited
+30:000  0:000  Chosen embedded theme
+30:001  0:000  found boot-args in NVRAM:alcid=1 -v -no_compat_check, size=28
+30:001  0:000  ...found arg:alcid=1
+30:001  0:000  ...found arg:-v
+30:001  0:000  ...found arg:-no_compat_check
+30:001  0:000  after NVRAM boot-args=dart=0 -no_compat_check alcid=1 -v
+30:001  0:000  === [ ScanLoader ] ==============================
+30:001  0:000  - [01]: 'BOOT'
+30:001  0:000          AddLoaderEntry for Volume Name=BOOT
+30:001  0:000       skipped because path `PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,MBR,0x6DDFC371,0x800,0x64000)\EFI\BOOT\BOOTX64.efi` is self path!
+30:001  0:000  - [02]: 'macOS Base System'
+30:001  0:000          AddLoaderEntry for Volume Name=macOS Base System
+30:002  0:000  IconName=cata,mac comma=4 size=8
+30:002  0:000    first=os_cata
+30:002  0:000    Second=os_mac
+30:002  0:000      Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,MBR,0x6DDFC371,0x64800,0x72F7800)\System\Library\CoreServices\boot.efi'
+30:004  0:001  - [05]: 'EFI'
+30:019  0:015  - [07]: 'macos'
+30:019  0:000  Scanning legacy ...
+30:019  0:000  === [ AddCustomTool ] ===========================
+30:020  0:001  === [ GetEfiBootDeviceFromNvram ] ===============
+30:020  0:000  === [ FindStartupDiskVolume ] ===================
+30:020  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,EC797C47-AA68-4FD3-A09A-CB903CD5B8A4,0x64028,0xDEF0B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,213B5EBA29D71B42A2C5D560285D916D)
+30:020  0:000     - searching for that partition
+30:020  0:000      - [!] not found
+30:020  0:000     - searching again, but comparing Media dev path nodes
+30:020  0:000      - [!] not found
+30:020  0:000  Default boot entry not found
+30:020  0:000  AnimeRun=0
+33:754  3:733  AnimeRun=0
