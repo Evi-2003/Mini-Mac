@@ -19,3 +19,4 @@ I used some premade patches from Olarilla, some credits to him.
 - [ ] Find the right kexts or changes in the configuration so macOS can read temps. 
 - [ ] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
 - [ ] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
+![alt text](https://github.com/Remco17/Mini-Mac/blob/main/IMG_1015.JPEG)
