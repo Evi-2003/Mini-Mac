@@ -20,6 +20,7 @@ I used some premade patches from Olarilla, some credits to him.
 # TO-DO list
 - [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
 - [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
+* Currently does not boot into macOS with OpenCore, i'm getting 'no macOS version'. - Under investigation
 - [ ] Find the right kexts or changes in the configuration so macOS can read temps. 
 - [ ] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
 
