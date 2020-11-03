@@ -1,5 +1,6 @@
 # Mini-Mac
 Hakintosh build from spare parts.
+![alt text](https://github.com/Remco17/Mini-Mac/blob/main/IMG_1015.JPEG)
 # Parts
 CPU: INTEL G4560
 GPU: ASUS RX 470 4GB OC
@@ -15,8 +16,8 @@ macOS only supports very old Nvidea GPU'S, my main pc has a 2060 Super which is 
 #Patches 
 I used some premade patches from Olarilla, some credits to him. 
 # TO-DO list
+- [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
 - [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
 - [ ] Find the right kexts or changes in the configuration so macOS can read temps. 
 - [ ] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
-- [ ] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
-![alt text](https://github.com/Remco17/Mini-Mac/blob/main/IMG_1015.JPEG)
+- [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
