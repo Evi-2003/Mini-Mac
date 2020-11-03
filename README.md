@@ -4,9 +4,10 @@ Hakintosh build from spare parts.
 # Parts
 - CPU: INTEL G4560
 - GPU: ASUS RX 470 4GB OC
-- RAM: 16GB 3200MHz ( My main pc was 32 gb, from 4 sticks. I took 2 so i can build this, the board does not actually supports 3200MHz, but 2400MHz )
+- RAM: 16GB 3200MHz ( My main pc was 32 gb, it had 4 sticks. I took 2 so i can build this, the board does not actually supports 3200MHz, but 2400MHz, so i will lose 800MHz)
 - MOBO: ASUS PRIME B250-PLUS
 - CASE: MasterBox Q500L ATX
+- PSU: Weird one, got it from a friend. Does not have a brand, as far i can see.
 # Configuration
 I used clover for this build. It is currently working very stable. Will transistion to OpenCore because it is better an handeling BigSur and is faster, and cleaner.
 # Does iMessage and Facetime work?
@@ -21,4 +22,4 @@ I used some premade patches from Olarilla, some credits to him.
 - [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
 - [ ] Find the right kexts or changes in the configuration so macOS can read temps. 
 - [ ] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
-- [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
+
