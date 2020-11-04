@@ -1,5 +1,6 @@
 # Mini-Mac
 Hakintosh build from spare parts.
+(More photo's on the final version)
 ![alt text](https://github.com/Remco17/Mini-Mac/blob/main/IMG_1015.JPEG)
 # Parts
 - CPU: INTEL G4560
