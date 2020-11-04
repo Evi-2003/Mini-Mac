@@ -15,8 +15,12 @@ It currently does, Apple Support only had changed something in my account so it 
 # Whats the goal of this project, if you have a better main pc?
 macOS only supports very old Nvidea GPU'S, my main pc has a 2060 Super which is not supported. I wanted to build this machine for using facetime, for calling to people using my headset. Also for learning Swift. Windows does not support calling from a iPhone.  --- Also when i move out, i want to give this PC or Mac to my parents. Depends on which OS the rather want, probaly Windows. 
 For gaming and such i will use my main pc
-#Patches 
+# Patches -- Clover
 I used some premade patches from Olarilla, some credits to him. 
+# Opencore
+I'm currently working on a transistion to Opencore. Which is a big but important step. 
+I'm currently struggeling with some issues, which are probaly related to the fakeCPUID being required. Haven't figured it all quite yet. 
+The main issue i have is then i'm booting with opencore, i get an kernel panic, for no macos version set. Even when it's all installed correctly. Troubleshooting Opencore is a bit harder than Clover.
 # TO-DO list
 - [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
 - [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
