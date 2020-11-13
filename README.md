@@ -22,6 +22,8 @@ I used some premade patches from Olarilla, some credits to him.
 I'm currently working on a transistion to Opencore. Which is a big but important step. 
 I'm currently struggeling with some issues, which are probaly related to the fakeCPUID being required. Haven't figured it all quite yet. 
 The main issue i have is then i'm booting with opencore, i get an kernel panic, for no macos version set. Even when it's all installed correctly. Troubleshooting Opencore is a bit harder than Clover.
+# Issues
+Currently i have two versions of OpenCore both will end up with a black screen, or with the message 'no mac os version'. So there weill be some investigation.
 # TO-DO list
 - [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
 - [X] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
