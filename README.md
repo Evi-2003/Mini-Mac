@@ -16,17 +16,15 @@ It currently does, Apple Support only had changed something in my account so it 
 # Whats the goal of this project, if you have a better main pc?
 macOS only supports very old Nvidea GPU'S, my main pc has a 2060 Super which is not supported. I wanted to build this machine for using facetime, for calling to people using my headset. Also for learning Swift. Windows does not support calling from a iPhone.  --- Also when i move out, i want to give this PC or Mac to my parents. Depends on which OS the rather want, probaly Windows. 
 For gaming and such i will use my main pc
-# Patches -- Clover
-I used some premade patches from Olarilla, some credits to him. 
+# BigSur
+Opencore is currently on the latest version but i have a BIG peformance issue in bigsur. The peformance is really, really, really, bad. So for now i will keep it on cataline.
 # Opencore
-I'm currently working on a transistion to Opencore. Which is a big but important step. 
-I'm currently struggeling with some issues, which are probaly related to the fakeCPUID being required. Haven't figured it all quite yet. 
-The main issue i have is then i'm booting with opencore, i get an kernel panic, for no macos version set. Even when it's all installed correctly. Troubleshooting Opencore is a bit harder than Clover.
+Opencore currently works, not perfect, but it does
 # Issues
 Currently i have two versions of OpenCore both will end up with a black screen, or with the message 'no mac os version'. So there weill be some investigation.
 # TO-DO list
 - [X] Also need to buy a extra display-port cable so i can connect the second monitor to the mac. 
 - [X] Finding a damn screw for the m.2 drive in the system ( Currently without screw, it works, but that's not really good practice. And has a change of falling out over time without screw. So gotta find a scre :D ) 
-- [ ] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
+- [X] Convert Clover to Opencore, so it will be futureproof, and even more stable for BigSur.
 * Currently does not boot into macOS with OpenCore, i'm getting 'no macOS version'. - Under investigation
-- [ ] Find the right kexts or changes in the configuration so macOS can read temps. 
+- [X] Find the right kexts or changes in the configuration so macOS can read temps. 
