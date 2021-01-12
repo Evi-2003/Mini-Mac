@@ -1,3 +1,5 @@
+# I will no longer work on this project as i find my CPU ( Pentium g4560 ) a bt to slow to work propely. I will propably buy a ATX board and a better PSU as i then can fit 2 gpu's in my pc. As Nvidea is not supported i could then fit the AMD card too in my PC. Then the configuration will be a ryzen 2600 with a rx 470 which would work better
+
 # Mini-Mac
 Hakintosh build from spare parts.
 
